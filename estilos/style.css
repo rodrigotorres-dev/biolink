@@ -16,7 +16,7 @@
 body {
     background: #10B981;
     background: linear-gradient(70deg, rgba(16, 185, 129, 1) 0%, rgba(10, 10, 10, 1) 100%);
-    color: var(--text);
+    color: var(--bg);
     display: flex;
     flex-direction: column;
     max-width: 650px;
@@ -32,6 +32,27 @@ body {
 
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.301);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 2px 1px 1px 1px rgba(255, 255, 255, 0.137);
+}
+
+p{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+img {
+    width: 25px;
+    gap: 10px;
+}
+
 .img_profile {
     width: 150px;
     
@@ -42,6 +63,12 @@ body {
     align-items: center;
     gap: 8px;
 }
+
+.text {
+    margin: 10px 0;
+
+}
+
 
 a {
         color: var(--bg);
